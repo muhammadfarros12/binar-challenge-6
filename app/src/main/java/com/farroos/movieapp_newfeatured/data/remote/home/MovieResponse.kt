@@ -1,6 +1,7 @@
 package com.farroos.movie.data.remote.home
 
 
+import com.farroos.movieapp_newfeatured.data.remote.home.Movie
 import com.google.gson.annotations.SerializedName
 
 data class MovieResponse(

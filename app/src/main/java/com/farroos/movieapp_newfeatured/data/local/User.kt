@@ -20,6 +20,8 @@ data class User(
     @ColumnInfo(name = "password")
     val password: String,
     @ColumnInfo(name = "address")
-    var address: String
+    var address: String,
+    @ColumnInfo(name = "image")
+    var image: String?
 
 ) : Parcelable

@@ -12,7 +12,10 @@ interface UserDao {
     suspend fun insert(user: User)
 
     @Query("SELECT * FROM user WHERE email LIKE :email AND password LIKE :password")
-    fun login(email: String, password: String): User
+    suspend fun login(email: String, password: String): User
+
+    @Query("SELECT * FROM user WHERE id = :id")
+    suspend fun getUser(id: Int): User
 
     @Update(onConflict = REPLACE)
     suspend fun update(user: User)

@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.farroos.movie.data.remote.home.Movie
+import com.farroos.movieapp_newfeatured.data.remote.home.Movie
 import com.farroos.movie.utils.urlImage
 import com.farroos.movieapp_newfeatured.R
 import com.farroos.movieapp_newfeatured.databinding.ItemMovieBinding

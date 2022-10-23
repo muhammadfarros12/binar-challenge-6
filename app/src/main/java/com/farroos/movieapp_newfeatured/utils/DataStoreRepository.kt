@@ -1,8 +1,6 @@
 package com.farroos.movieapp_newfeatured.utils
 
 import android.content.Context
-import androidx.datastore.core.DataStore
-import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
@@ -12,7 +10,7 @@ import kotlinx.coroutines.flow.map
 
 class DataStoreRepository(private val context: Context) {
 
-    val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = DATASTORE_NAME)
+    private val Context.dataStore by preferencesDataStore(name = DATASTORE_NAME)
 
     suspend fun save(status: Boolean, id: Int) {
         context.dataStore.edit {
@@ -28,17 +26,19 @@ class DataStoreRepository(private val context: Context) {
         }
     }
 
-    val getStatus: Flow<Boolean> = context.dataStore.data
-        .map {
-            val myStatus = it[STATUS_KEY] ?: false
-            myStatus
-        }
+    fun getStatus(): Flow<Boolean> {
+        return context.dataStore.data.map {
+            it[STATUS_KEY] ?: false
 
-    val getId: Flow<Int> = context.dataStore.data
-        .map {
-            val myId = it[ID] ?: 0
-            myId
         }
+    }
+
+    fun getId(): Flow<Int> {
+        return context.dataStore.data.map { data ->
+            data[ID] ?: 0
+
+        }
+    }
 
 
     companion object {
