@@ -1,7 +1,6 @@
 package com.farroos.movieapp_newfeatured.ui.profile.update
 
 import android.Manifest
-import android.app.Activity
 import android.app.Activity.RESULT_OK
 import android.app.AlertDialog
 import android.content.ActivityNotFoundException
@@ -197,7 +196,7 @@ class UpdateProfileFragment : Fragment() {
     private fun saveImageInternalStorage(bitmap: Bitmap): Uri {
         val wrapper = ContextWrapper(requireContext())
         // path to /data/data/yourapp/app_data/imageDir
-        val file = wrapper.getDir(RegisterFragment.IMAGE_DIRECTORY, Context.MODE_PRIVATE)
+        val file = wrapper.getDir(IMAGE_DIRECTORY, Context.MODE_PRIVATE)
         // create imageDir
         val path = File(file, "${UUID.randomUUID()}.jpg")
 
@@ -267,7 +266,7 @@ class UpdateProfileFragment : Fragment() {
     companion object {
         const val GALLERY = 1
         const val CAMERA = 2
-        const val IMAGE_DIRECTORY = "UpdateUserImage"
+        const val IMAGE_DIRECTORY = "UserImage"
     }
 
 }

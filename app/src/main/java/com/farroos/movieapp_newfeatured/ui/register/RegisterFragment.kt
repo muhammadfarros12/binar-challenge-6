@@ -215,7 +215,6 @@ class RegisterFragment : Fragment() {
     }
 
     companion object {
-        const val REQUEST_CODE = 200
         const val GALLERY = 1
         const val CAMERA = 2
         const val IMAGE_DIRECTORY = "UserImage"
