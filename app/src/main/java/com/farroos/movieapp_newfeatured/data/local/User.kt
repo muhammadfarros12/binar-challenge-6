@@ -12,16 +12,16 @@ data class User(
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0,
     @ColumnInfo(name = "username")
-    var username: String,
+    var username: String = "",
     @ColumnInfo(name = "fullname")
-    var fullname: String,
+    var fullname: String = "",
     @ColumnInfo(name = "email")
-    var email: String,
+    var email: String = "",
     @ColumnInfo(name = "password")
-    val password: String,
+    var password: String = "",
     @ColumnInfo(name = "address")
-    var address: String,
+    var address: String = "",
     @ColumnInfo(name = "image")
-    var image: String?
+    var image: String? = ""
 
 ) : Parcelable

@@ -1,4 +1,4 @@
-package com.farroos.movieapp_newfeatured.ui.home;
+package com.farroos.movieapp_newfeatured.ui.home
 
 import android.view.LayoutInflater
 import android.view.View
