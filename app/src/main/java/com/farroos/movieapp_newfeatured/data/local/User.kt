@@ -23,5 +23,4 @@ data class User(
     var address: String = "",
     @ColumnInfo(name = "image")
     var image: String? = ""
-
 ) : Parcelable

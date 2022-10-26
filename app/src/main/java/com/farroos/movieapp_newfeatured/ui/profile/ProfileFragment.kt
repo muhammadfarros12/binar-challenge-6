@@ -10,7 +10,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.farroos.movie.data.resource.Status
+import com.farroos.movieapp_newfeatured.data.remote.resource.Status
 import com.farroos.movieapp_newfeatured.R
 import com.farroos.movieapp_newfeatured.data.local.User
 import com.farroos.movieapp_newfeatured.databinding.FragmentProfileBinding

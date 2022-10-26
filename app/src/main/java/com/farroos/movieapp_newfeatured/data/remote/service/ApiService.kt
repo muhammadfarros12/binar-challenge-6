@@ -1,11 +1,10 @@
 package com.farroos.movieapp_newfeatured.data.remote.service
 
-import com.farroos.movie.data.remote.home.MovieResponse
+import com.farroos.movieapp_newfeatured.data.remote.home.MovieResponse
 import com.farroos.movie.data.remote.detail.DetailMovie
 import com.farroos.movieapp_newfeatured.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import retrofit2.Call
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

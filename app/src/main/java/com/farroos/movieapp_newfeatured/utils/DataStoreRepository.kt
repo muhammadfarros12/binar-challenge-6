@@ -42,7 +42,7 @@ class DataStoreRepository(private val context: Context) {
 
 
     companion object {
-        private val DATASTORE_NAME = "user_datastore_preference"
+        private const val DATASTORE_NAME = "user_datastore_preference"
         private val ID = intPreferencesKey("id_key")
         private val STATUS_KEY = booleanPreferencesKey("status_key")
     }

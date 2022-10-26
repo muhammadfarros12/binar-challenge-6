@@ -1,4 +1,4 @@
-package com.farroos.movie.data.resource
+package com.farroos.movieapp_newfeatured.data.remote.resource
 enum class Status {
     SUCCESS,
     ERROR,

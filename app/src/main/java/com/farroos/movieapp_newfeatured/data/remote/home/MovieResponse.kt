@@ -1,4 +1,4 @@
-package com.farroos.movie.data.remote.home
+package com.farroos.movieapp_newfeatured.data.remote.home
 
 
 import com.farroos.movieapp_newfeatured.data.remote.home.Movie

@@ -8,7 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.farroos.movie.data.resource.Status
+import com.farroos.movieapp_newfeatured.data.remote.resource.Status
 import com.farroos.movieapp_newfeatured.R
 import com.farroos.movieapp_newfeatured.databinding.FragmentLoginBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
