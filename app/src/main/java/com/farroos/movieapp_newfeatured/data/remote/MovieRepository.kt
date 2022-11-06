@@ -13,15 +13,4 @@ class MovieRepository(private val movieRemoteDataSource: MovieRemoteDataSource) 
         return movieRemoteDataSource.getDetail(id)
     }
 
-    companion object {
-        @Volatile
-        private var instance: MovieRepository? = null
-        fun getInstance(
-            remoteDataSource: MovieRemoteDataSource
-        ): MovieRepository =
-            instance ?: synchronized(this) {
-                instance ?: MovieRepository(remoteDataSource)
-            }.also { instance = it }
-    }
-
 }

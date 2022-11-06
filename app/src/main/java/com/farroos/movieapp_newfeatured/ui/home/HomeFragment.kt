@@ -87,6 +87,7 @@ class HomeFragment : Fragment() {
                     findNavController().navigate(R.id.action_homeFragment_to_profileFragment)
                     true
                 }
+
                 else -> false
             }
         }

@@ -48,6 +48,10 @@ class LoginFragment : Fragment() {
             findNavController().navigate(R.id.action_loginFragment_to_registerFragment)
         }
 
+        binding.textView.setOnClickListener {
+            throw RuntimeException("Test Crash")
+        }
+
         binding.btnLogin.setOnClickListener {
             viewModel.login(
                 binding.edtEmail.text.toString(),
