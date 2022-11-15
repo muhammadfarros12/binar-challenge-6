@@ -59,7 +59,8 @@
             android:src="@drawable/ic_image_placeholder"
             app:layout_constraintEnd_toStartOf="@+id/txt_add_photo"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView" />
+            app:layout_constraintTop_toBottomOf="@id/imageView"
+            android:contentDescription="TODO" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/labelUsername"
@@ -75,7 +76,7 @@
             app:layout_constraintTop_toBottomOf="@id/img_profile">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtUsername"
+                android:id="@+id/edt_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -95,7 +96,7 @@
             app:layout_constraintTop_toBottomOf="@id/labelUsername">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtFullname"
+                android:id="@+id/edt_fullname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -116,7 +117,7 @@
             app:layout_constraintTop_toBottomOf="@id/labelFullname">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtEmail"
+                android:id="@+id/edt_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress" />
@@ -138,7 +139,7 @@
             app:layout_constraintTop_toBottomOf="@id/labelEmail">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtPassword"
+                android:id="@+id/edt_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
@@ -159,7 +160,7 @@
             app:layout_constraintTop_toBottomOf="@id/labelPassword">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtAddress"
+                android:id="@+id/edt_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -167,7 +168,7 @@
 
 
         <Button
-            android:id="@+id/btnRegister"
+            android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"

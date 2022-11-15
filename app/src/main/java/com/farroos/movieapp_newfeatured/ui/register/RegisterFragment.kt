@@ -36,7 +36,7 @@ import java.util.*
 class RegisterFragment : Fragment() {
 
     private var _binding: FragmentRegisterBinding? = null
-    val binding get() = _binding as FragmentRegisterBinding
+    private val binding get() = _binding as FragmentRegisterBinding
 
     private val viewModel: RegisterViewModel by viewModel()
 

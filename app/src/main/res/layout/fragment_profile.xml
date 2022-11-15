@@ -11,7 +11,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/ivBack"
+            android:id="@+id/iv_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -42,7 +42,8 @@
             android:src="@drawable/logo_binar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+            app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+            android:contentDescription="TODO" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/labelUsername"
@@ -58,7 +59,7 @@
             app:layout_constraintTop_toBottomOf="@id/imgLogo">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtUsername"
+                android:id="@+id/edt_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -78,7 +79,7 @@
             app:layout_constraintTop_toBottomOf="@id/labelUsername">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtFullname"
+                android:id="@+id/edt_fullname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -99,7 +100,7 @@
             app:layout_constraintTop_toBottomOf="@id/labelFullname">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtEmail"
+                android:id="@+id/edt_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress" />
@@ -121,7 +122,7 @@
             app:layout_constraintTop_toBottomOf="@id/labelEmail">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtAddress"
+                android:id="@+id/edt_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -146,7 +147,7 @@
             app:layout_constraintTop_toBottomOf="@+id/labelAddress" />
 
         <Button
-            android:id="@+id/btnLogout"
+            android:id="@+id/btn_logout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

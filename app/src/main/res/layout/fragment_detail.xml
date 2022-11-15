@@ -63,7 +63,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@tools:sample/avatars" />
+                tools:src="@tools:sample/avatars"
+                android:contentDescription="TODO" />
 
             <TextView
                 android:id="@+id/txt_judul"
@@ -97,7 +98,7 @@
 
 
     <FrameLayout
-        android:id="@+id/loadingContainer"
+        android:id="@+id/loading_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clickable="true"

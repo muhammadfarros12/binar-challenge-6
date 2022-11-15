@@ -1,3 +1,5 @@
+@file:Suppress("unused", "unused")
+
 package com.farroos.movieapp_newfeatured.ui.login
 
 import androidx.lifecycle.*

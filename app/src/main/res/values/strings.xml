@@ -1,16 +1,14 @@
 <resources>
     <string name="app_name">MovieApp-newFeatured</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="username">Welcome, %1$s !</string>
     <string name="judul_film">Film Title</string>
     <string name="ringkasan">Overview</string>
-    <string name="belum_punya_akun">Dont Have an Account?</string>
-    <string name="daftar_disini"> Register Here</string>
     <string name="profile">Profile</string>
     <string name="nama_pengguna">Username</string>
     <string name="nama_lengkap">Fullname</string>
     <string name="email">Email</string>
     <string name="alamat_pengguna">Address</string>
+    <string name="movie_app">Movie App</string>
 </resources>
