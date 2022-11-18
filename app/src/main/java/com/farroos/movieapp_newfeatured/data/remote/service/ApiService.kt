@@ -1,7 +1,9 @@
+@file:Suppress("unused", "unused", "unused", "unused", "unused", "unused", "unused")
+
 package com.farroos.movieapp_newfeatured.data.remote.service
 
 import com.farroos.movieapp_newfeatured.data.remote.home.MovieResponse
-import com.farroos.movie.data.remote.detail.DetailMovie
+import com.farroos.movieapp_newfeatured.data.remote.detail.DetailMovie
 import com.farroos.movieapp_newfeatured.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -27,6 +29,7 @@ interface ApiService {
     ): Response<DetailMovie>
 }
 
+@Suppress("unused", "unused", "unused", "unused", "unused", "unused", "unused")
 object ApiClient {
     private val logging = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY

@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.farroos.movie.utils.urlImage
+import com.farroos.movieapp_newfeatured.utils.urlImage
 import com.farroos.movieapp_newfeatured.R
 import com.farroos.movieapp_newfeatured.databinding.FragmentDetailBinding
 import com.google.android.material.snackbar.Snackbar
@@ -26,7 +26,7 @@ class DetailFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         _binding = FragmentDetailBinding.inflate(layoutInflater, container, false)
         return binding.root

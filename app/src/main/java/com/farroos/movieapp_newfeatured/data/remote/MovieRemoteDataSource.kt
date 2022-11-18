@@ -1,6 +1,6 @@
 package com.farroos.movieapp_newfeatured.data.remote
 
-import com.farroos.movie.data.remote.detail.DetailMovie
+import com.farroos.movieapp_newfeatured.data.remote.detail.DetailMovie
 import com.farroos.movieapp_newfeatured.data.remote.home.Movie
 import com.farroos.movieapp_newfeatured.data.remote.service.ApiClient
 

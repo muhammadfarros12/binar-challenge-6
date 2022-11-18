@@ -1,4 +1,4 @@
-package com.farroos.movie.data.remote.detail
+package com.farroos.movieapp_newfeatured.data.remote.detail
 
 
 import com.google.gson.annotations.SerializedName

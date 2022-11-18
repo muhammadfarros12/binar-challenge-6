@@ -1,8 +1,8 @@
-package com.farroos.movie.utils
+package com.farroos.movieapp_newfeatured.utils
 
 open class Event<out T>(private val content: T) {
 
-    var eventHandled = false
+    private var eventHandled = false
         private set
 
     fun getContentIffNotHandled(): T? {

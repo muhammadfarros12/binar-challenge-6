@@ -3,7 +3,7 @@
 package com.farroos.movieapp_newfeatured.ui.login
 
 import androidx.lifecycle.*
-import com.farroos.movie.data.resource.Resource
+import com.farroos.movieapp_newfeatured.data.remote.resource.Resource
 import com.farroos.movieapp_newfeatured.data.local.User
 import com.farroos.movieapp_newfeatured.data.local.UserRepository
 import com.farroos.movieapp_newfeatured.utils.DataStoreRepository

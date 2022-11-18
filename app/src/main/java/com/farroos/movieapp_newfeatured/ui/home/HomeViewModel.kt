@@ -2,7 +2,7 @@ package com.farroos.movieapp_newfeatured.ui.home
 
 import androidx.lifecycle.*
 import com.farroos.movieapp_newfeatured.data.remote.home.Movie
-import com.farroos.movie.data.resource.Resource
+import com.farroos.movieapp_newfeatured.data.remote.resource.Resource
 import com.farroos.movieapp_newfeatured.data.local.User
 import com.farroos.movieapp_newfeatured.data.local.UserRepository
 import com.farroos.movieapp_newfeatured.data.remote.ErrorMovie

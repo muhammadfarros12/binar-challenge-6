@@ -1,6 +1,4 @@
-package com.farroos.movie.data.resource
-
-import com.farroos.movieapp_newfeatured.data.remote.resource.Status
+package com.farroos.movieapp_newfeatured.data.remote.resource
 
 data class Resource<out T>(val status: Status, val data: T?, val id: Long, val message: String?) {
     companion object {

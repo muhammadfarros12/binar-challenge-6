@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package com.farroos.movieapp_newfeatured.data.local
 
 import androidx.room.Dao
@@ -6,6 +8,7 @@ import androidx.room.OnConflictStrategy.REPLACE
 import androidx.room.Query
 import androidx.room.Update
 
+@Suppress("unused")
 @Dao
 interface UserDao {
     @Insert

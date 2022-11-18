@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.farroos.movie.utils.Event
+import com.farroos.movieapp_newfeatured.utils.Event
 import com.farroos.movieapp_newfeatured.data.local.User
 import com.farroos.movieapp_newfeatured.data.local.UserRepository
 import kotlinx.coroutines.launch

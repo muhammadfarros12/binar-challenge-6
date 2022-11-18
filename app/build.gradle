@@ -1,3 +1,4 @@
+//file:noinspection SpellCheckingInspection
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
@@ -9,8 +10,20 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        realease {
+            storeFile file('E:\\project\\AndroidStudio\\keystore.jks')
+            storePassword 'asd12345'
+            keyAlias 'key0'
+            keyPassword 'asd12345'
+        }
+    }
     namespace 'com.farroos.movieapp_newfeatured'
     compileSdk 33
+
+    lintOptions{
+        baseline file("lint-baseline.xml")
+    }
 
     defaultConfig {
         applicationId "com.farroos.movieapp_newfeatured"
@@ -27,11 +40,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.realease
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     kotlinOptions {
         jvmTarget = '1.8'

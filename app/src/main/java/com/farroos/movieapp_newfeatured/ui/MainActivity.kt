@@ -1,8 +1,7 @@
 package com.farroos.movieapp_newfeatured.ui
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.farroos.movieapp_newfeatured.R
 
 class MainActivity : AppCompatActivity() {

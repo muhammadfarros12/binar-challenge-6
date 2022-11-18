@@ -1,3 +1,5 @@
+@file:Suppress("SpellCheckingInspection", "SpellCheckingInspection", "SpellCheckingInspection")
+
 package com.farroos.movieapp_newfeatured
 
 import androidx.test.platform.app.InstrumentationRegistry
