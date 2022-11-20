@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Dolphin | 2021.3.1">
+
+    <issue
+        id="ScopedStorage"
+        message="WRITE_EXTERNAL_STORAGE no longer provides write access when targeting Android 10+">
+        <location
+            file="src\main\AndroidManifest.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.4.0 is available: 3.5.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.3 is available: 1.1.4">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test:rules than 1.4.0 is available: 1.5.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test:runner than 1.4.0 is available: 1.5.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="35"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="35"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="SharedSQLiteStatement.createQuery can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter.bind can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="42"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter.createQuery can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="78"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter.bind can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="83"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter.insert can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="127"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter.handle can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="144"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.acquire can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="158"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.bindNull can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="161"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.bindString can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="163"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.bindNull can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="167"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.bindString can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="169"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.createCancellationSignal can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="171"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="175"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="175"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="175"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="175"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="177"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="177"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="177"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="178"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="178"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="178"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="179"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="179"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="179"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="180"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="180"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="180"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="181"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="181"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="181"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="182"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="182"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="182"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="183"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="183"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="183"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.release can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="231"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.acquire can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="240"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.bindLong can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="242"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.createCancellationSignal can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="243"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="247"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="247"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="247"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="247"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="249"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="249"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="249"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="250"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="250"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="250"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="251"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="251"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="251"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="252"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="252"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="252"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="253"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="253"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="253"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="254"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="254"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="254"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="255"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="255"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="255"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.release can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDao_Impl.java"
+            line="303"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.createAllTables can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="39"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.dropAllTables can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="48"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="49"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="50"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onCreate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="56"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="57"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="58"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="59"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onOpen can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="68"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="69"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onPreMigrate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.dropFtsSyncTriggers can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="77"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onPostMigrate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="81"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onValidateSchema can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="91"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="91"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="91"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="92"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="92"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="92"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="96"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.read can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="97"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.equals can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="98"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="99"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="99"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="103"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="103"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="105"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="105"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="InvalidationTracker can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="118"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.assertNotMainThread can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="123"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.getRequiredTypeConverters can only be called from within the same library group (referenced groupId=`androidx.room` from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="139"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.getRequiredAutoMigrationSpecs can only be called from within the same library group (referenced groupId=`androidx.room` from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="146"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.getAutoMigrations can only be called from within the same library group (referenced groupId=`androidx.room` from groupId=`MovieApp-newFeatured`)">
+        <location
+            file="build\generated\source\kapt\firstDebug\com\farroos\movieapp_newfeatured\data\local\UserDatabase_Impl.java"
+            line="152"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <location
+            file="src\main\AndroidManifest.xml"
+            line="21"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Empty `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_detail.xml"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Empty `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Empty `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="63"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Empty `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="54"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Empty `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\item_movie.xml"
+            line="23"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TODO&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_detail.xml"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Welcome, Username !&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_home.xml"
+            line="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_login.xml"
+            line="24"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_login.xml"
+            line="52"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Password&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_login.xml"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_login.xml"
+            line="94"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Belum Punya akun? &quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_login.xml"
+            line="111"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Daftar Disini&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_login.xml"
+            line="117"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TODO&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Edit Profile&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="143"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Logout&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_profile.xml"
+            line="155"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Register&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Movie App&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Add Photo&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TODO&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="63"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Username&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Fullname&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="114"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Password&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="135"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Address&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="157"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Register&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_register.xml"
+            line="177"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Update Profile&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="36"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TODO&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="54"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Ganti Photo Profile&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="61"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Username&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="75"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Fullname&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="95"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="116"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Address&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="138"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Update Profile&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_update_profile.xml"
+            line="162"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;TODO&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\item_movie.xml"
+            line="23"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Judul Film&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\item_movie.xml"
+            line="32"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Rate&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\item_movie.xml"
+            line="42"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Profile&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\menu\menu.xml"
+            line="6"/>
+    </issue>
+
+</issues>
