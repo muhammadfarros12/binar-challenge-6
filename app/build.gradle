@@ -19,7 +19,7 @@ android {
         }
     }
     namespace 'com.farroos.movieapp_newfeatured'
-    compileSdk 33
+    compileSdkVersion 33
 
     lintOptions{
         baseline file("lint-baseline.xml")
@@ -27,8 +27,8 @@ android {
 
     defaultConfig {
         applicationId "com.farroos.movieapp_newfeatured"
-        minSdk 21
-        targetSdk 33
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
